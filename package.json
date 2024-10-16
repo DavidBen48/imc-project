@@ -1,0 +1,19 @@
+{
+  "name": "projeto-imc",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^27.0.0", 
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0"
+  },
+    "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
